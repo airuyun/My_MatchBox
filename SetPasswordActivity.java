@@ -24,6 +24,8 @@ import butterknife.OnClick;
  */
 public class SetPasswordActivity extends BaseActivity implements TextWatcher, CompoundButton.OnCheckedChangeListener, TextView.OnEditorActionListener {
     @InjectView(R.id.password_et)
+
+            
     EditText passwordEt;
     @InjectView(R.id.password_iv_show)
     CheckBox passwordIvShow;
